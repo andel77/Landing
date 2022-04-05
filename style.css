@@ -1,0 +1,115 @@
+* {
+    font-family: 'Quicksand', sans-serif, Arial;
+    }
+
+p, li, q, cite, figcaption {
+    font-size: 25px;
+}
+/* заголовок*/
+
+h1 {
+    font-size: 50px;
+}
+.caption, h2 {
+    text-align: center;
+    margin: 100px;
+}
+.caption {
+    position: relative;
+}
+
+.image {
+    position: absolute;
+    margin: 0 auto;
+}
+h2{
+    font-size: 35px;
+    animation-name: text;
+    animation-duration: 5s;
+
+}
+
+@keyframes text {
+    0% {
+        color: inherit;
+    }
+50% {
+    color: #FFA07A;
+}
+    100% {
+        color: #CD5C5C;
+    }
+}
+
+figure {
+    text-align: center;
+}
+
+figcaption {
+    padding-top: 10px;
+}
+img {
+    width: 1600px;
+    height: 100%;
+    border-radius: 50px/15px;
+    justify-content: center;
+            }
+
+ul {
+    margin: 100px;
+    border-top: 5px solid #FFA07A;
+    padding: 50px;
+}
+
+li {
+    padding-bottom: 10px;
+}
+
+li:hover {
+    background-color: #FFA07A;
+}
+
+.word {
+
+    justify-content: center;
+    margin: 80px 100px 100px 100px;
+    box-shadow: 5px 5px 15px #FFA07A;
+}
+
+cite {
+    padding-top: 20px;
+}
+
+.more {
+
+    height: 100%;
+    text-align: center;
+    margin: 150px;
+    font-size: 30px;
+   }
+
+a {
+    color: #CD5C5C;
+}
+
+a:hover {
+    color: #FFA07A;
+}
+
+@media screen and (max-width: 600px) {
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    p, li, q, cite, figcaption, .more {
+        font-size: 15px;
+    }
+    h2 {
+        font-size: 25px;
+    }
+
+    .caption, h2, ul {
+        margin: 40px;
+    }
+
+    }
